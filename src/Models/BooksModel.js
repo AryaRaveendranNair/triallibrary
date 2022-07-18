@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 // mongoose.connect("mongodb://localhost:27017/Book")
-// mongoose.connect("mongodb+srv://aryalibrary:Dxb8Mu04mg7l6h6o@cluster0.qczdhu1.mongodb.net/library" );
-mongoose.connect("mongodb+srv://aryalibrary:Dxb8Mu04mg7l6h6o@cluster0.qczdhu1.mongodb.net/?retryWrites=true&w=majority" );
+mongoose.connect("mongodb+srv://aryalibrary:Dxb8Mu04mg7l6h6o@cluster0.qczdhu1.mongodb.net/library" );
+// mongoose.connect("mongodb+srv://aryalibrary:Dxb8Mu04mg7l6h6o@cluster0.qczdhu1.mongodb.net/?retryWrites=true&w=majority" );
 
 const Schema = mongoose.Schema;
 const BookSchema = new Schema({
